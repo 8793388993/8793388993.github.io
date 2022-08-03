@@ -160,8 +160,10 @@ let c = 6;
 a = a + b;
 b = a / c;
 c = c % b;
-console.log(a, b, c;
+console.log(a, b, c);
 */
+function arrayConcatination(){
+
 
 let arr1 = new Array("red", "black", "blue", "Green");
 let arr2 = [2, 45, 488, "Add", "yes we done it"];
@@ -170,6 +172,9 @@ console.log(arr3);
 let arr4 = ["suraj", "say", "hi"];
 arr4.shift();
 let arr5 = arr3.concat(arr4);
+
+}
+
 
 console.log(arr5);
 
